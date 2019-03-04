@@ -1,0 +1,77 @@
+.flightListRow {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.paddingBottom {
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.marginInfo {
+    margin: 10px;
+}
+
+.mar-top-20 {
+    margin-top: 20px;
+}
+
+.mar-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.mar-top-30 {
+    margin-top: 30px;
+}
+
+.activeButton {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.align-center {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .containerBox {
+        max-width: 1480px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+}
+
+.mar-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookButton {
+    float: right;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.transitTable .rt-thead {
+    min-height: 40px;
+    background: lightsteelblue;
+}
+
+.app {
+    text-align: center;
+    width: 50% !important;
+    border: solid 1px lightgrey;
+    border-radius: 4px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px !important;
+}
+

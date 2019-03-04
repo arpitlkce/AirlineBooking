@@ -1,0 +1,33 @@
+{
+	"extends": ["standard", "standard-react"],
+	"plugins": [
+		"react",
+		"jsx-a11y",
+		"import",
+		"compat"
+	],
+	"parser": "babel-eslint",
+	"rules": {
+		"indent": ["error", 4, { "SwitchCase": 1 }],
+		"semi": ["error", "always"], //Always use semicolons at the end of the statement
+		"jsx-quotes": ["error", "prefer-double"],
+		"one-var": "off",
+		"react/jsx-indent": ["error", 4],
+		"react/jsx-indent-props": ["error", 4],
+		"max-len": [2, 150, 2, {"ignoreComments": true}], //Max 150 characters allowed in a line,
+		"arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": true }],
+		"import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.spec.js", "**/*.spec.jsx"], "optionalDependencies": false, "peerDependencies": false}],
+		"compat/compat": "error",
+		"no-undef": "error"
+	},
+	"env": {
+		"browser": true,
+		"jest": true
+	},
+	"settings": {
+		"polyfills": ["fetch"],
+		"import/resolver": {
+			"babel-module": {}
+		}
+	}
+}

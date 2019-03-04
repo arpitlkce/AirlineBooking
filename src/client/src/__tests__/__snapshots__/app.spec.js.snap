@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render correctly in  mode 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        className="alert alert-success alert-dismissible fade"
+        role="alert"
+      >
+        <button
+          aria-label="Close"
+          className="close"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <p
+        className="lead heading"
+      >
+        Go Fly AirTicket Booking System
+      </p>
+      <hr
+        className="my-2"
+      />
+      <div
+        className="app container"
+      >
+        <form
+          className="form"
+        >
+          <div
+            className="form-row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="row form-group"
+              >
+                <label
+                  className="col-sm-4 col-form-label"
+                  htmlFor="name"
+                >
+                  User Name
+                </label>
+                <div
+                  className="col-sm-4"
+                >
+                  <input
+                    className="form-control"
+                    id="userName"
+                    name="userName"
+                    onChange={[Function]}
+                    type="text"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="row form-group"
+              >
+                <label
+                  className="col-sm-4 col-form-label"
+                  htmlFor="name"
+                >
+                  Password
+                </label>
+                <div
+                  className="col-sm-4"
+                >
+                  <input
+                    className="form-control"
+                    id="password"
+                    name="password"
+                    onChange={[Function]}
+                    type="password"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-label={null}
+            className="btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            LogIn
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

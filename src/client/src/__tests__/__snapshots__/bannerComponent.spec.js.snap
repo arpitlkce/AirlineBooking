@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerComponent Component should render correctly in  mode 1`] = `
+<nav
+  className="navbar navbar-expand-md navbar-light bg-light"
+>
+  <a
+    className="navbar-brand"
+    href="/"
+  >
+    Go Fly
+  </a>
+  <ul
+    className="mar-auto navbar-nav"
+  >
+    <li
+      className="nav-item"
+    >
+      <h3>
+         Welcome to Go Fly 
+      </h3>
+    </li>
+  </ul>
+  <button
+    aria-label={null}
+    className="btn btn-light"
+    onClick={[Function]}
+  >
+    Log Out
+  </button>
+</nav>
+`;

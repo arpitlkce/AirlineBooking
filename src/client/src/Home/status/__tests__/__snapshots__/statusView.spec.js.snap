@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusView Component should render correctly in  mode 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="mar-top-20 mar-bottom-20 row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        className="mr-sm-2"
+        htmlFor="bookingId"
+      >
+        Booking ID
+      </label>
+      <input
+        className="form-control"
+        id="bookingId"
+        name="bookingId"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <button
+        aria-label={null}
+        className="mar-top-30 btn btn-secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+  <div>
+    <div
+      className="col-md-12"
+    >
+      <div
+        className="jumbotron jumbotron-fluid"
+      >
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="lead row"
+          >
+            <div
+              className="col"
+            >
+              <label
+                className=""
+              >
+                Flight Details 
+              </label>
+            </div>
+            <div
+              className="col"
+            >
+              <label
+                className=""
+              >
+                Departure Details
+              </label>
+            </div>
+            <div
+              className="col"
+            >
+              <label
+                className=""
+              >
+                Arrival Details
+              </label>
+            </div>
+            <div
+              className="col"
+            >
+              <label
+                className=""
+              >
+                Duration
+              </label>
+            </div>
+            <div
+              className="col"
+            >
+              <label
+                className=""
+              >
+                Price
+              </label>
+            </div>
+          </div>
+          <div
+            className="small lead row"
+          >
+            <div
+              className="col"
+            >
+              <div>
+                Indigo
+              </div>
+              <div>
+                IN-220
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div>
+                12:35
+              </div>
+              <div>
+                BLR
+              </div>
+              <div>
+                Bangalore
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div>
+                14:35
+              </div>
+              <div>
+                LKO
+              </div>
+              <div>
+                Lucknow
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div>
+                4:00
+                 Hrs
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div>
+                $ 
+                1240,20
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="ReactTable -striped -highlight transitTable"
+          style={Object {}}
+        >
+          <div
+            className="rt-table"
+            role="grid"
+          >
+            <div
+              className="rt-thead -header"
+              style={
+                Object {
+                  "minWidth": "300px",
+                }
+              }
+            >
+              <div
+                className="rt-tr"
+                role="row"
+              >
+                <div
+                  className="rt-th rt-resizable-header -cursor-pointer"
+                  onClick={[Function]}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div
+                    className="rt-resizable-header-content"
+                  >
+                    FirstName
+                  </div>
+                  <div
+                    className="rt-resizer"
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                  />
+                </div>
+                <div
+                  className="rt-th rt-resizable-header -cursor-pointer"
+                  onClick={[Function]}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div
+                    className="rt-resizable-header-content"
+                  >
+                    Last Name
+                  </div>
+                  <div
+                    className="rt-resizer"
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                  />
+                </div>
+                <div
+                  className="rt-th rt-resizable-header -cursor-pointer"
+                  onClick={[Function]}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "flex": "100 0 auto",
+                      "maxWidth": null,
+                      "width": "100px",
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div
+                    className="rt-resizable-header-content"
+                  >
+                    Gender
+                  </div>
+                  <div
+                    className="rt-resizer"
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="rt-tbody"
+              style={
+                Object {
+                  "minWidth": "300px",
+                }
+              }
+            >
+              <div
+                className="rt-tr-group"
+                role="rowgroup"
+              >
+                <div
+                  className="rt-tr -odd"
+                  role="row"
+                >
+                  <div
+                    className="rt-td"
+                    onClick={[Function]}
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    arpi
+                  </div>
+                  <div
+                    className="rt-td"
+                    onClick={[Function]}
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    sd
+                  </div>
+                  <div
+                    className="rt-td"
+                    onClick={[Function]}
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    male
+                  </div>
+                </div>
+              </div>
+              <div
+                className="rt-tr-group"
+                role="rowgroup"
+              >
+                <div
+                  className="rt-tr -even"
+                  role="row"
+                >
+                  <div
+                    className="rt-td"
+                    onClick={[Function]}
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    ansh
+                  </div>
+                  <div
+                    className="rt-td"
+                    onClick={[Function]}
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    sfsd
+                  </div>
+                  <div
+                    className="rt-td"
+                    onClick={[Function]}
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    female
+                  </div>
+                </div>
+              </div>
+              <div
+                className="rt-tr-group"
+                role="rowgroup"
+              >
+                <div
+                  className="rt-tr -padRow -odd"
+                  role="row"
+                  style={Object {}}
+                >
+                  <div
+                    className="rt-td"
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    <span>
+                       
+                    </span>
+                  </div>
+                  <div
+                    className="rt-td"
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    <span>
+                       
+                    </span>
+                  </div>
+                  <div
+                    className="rt-td"
+                    role="gridcell"
+                    style={
+                      Object {
+                        "flex": "100 0 auto",
+                        "maxWidth": null,
+                        "width": "100px",
+                      }
+                    }
+                  >
+                    <span>
+                       
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="pagination-bottom"
+          >
+            <div
+              className="-pagination"
+            >
+              <div
+                className="-previous"
+              >
+                <button
+                  className="-btn"
+                  disabled={true}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Previous
+                </button>
+              </div>
+              <div
+                className="-center"
+              >
+                <span
+                  className="-pageInfo"
+                >
+                  Page
+                   
+                  <div
+                    className="-pageJump"
+                  >
+                    <input
+                      aria-label="jump to page"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onKeyPress={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                  </div>
+                   
+                  of
+                   
+                  <span
+                    className="-totalPages"
+                  >
+                    1
+                  </span>
+                </span>
+                <span
+                  className="select-wrap -pageSizeOptions"
+                >
+                  <select
+                    aria-label="rows per page"
+                    onChange={[Function]}
+                    value={3}
+                  >
+                    <option
+                      value={5}
+                    >
+                      5 rows
+                    </option>
+                    <option
+                      value={10}
+                    >
+                      10 rows
+                    </option>
+                    <option
+                      value={20}
+                    >
+                      20 rows
+                    </option>
+                    <option
+                      value={25}
+                    >
+                      25 rows
+                    </option>
+                    <option
+                      value={50}
+                    >
+                      50 rows
+                    </option>
+                    <option
+                      value={100}
+                    >
+                      100 rows
+                    </option>
+                  </select>
+                </span>
+              </div>
+              <div
+                className="-next"
+              >
+                <button
+                  className="-btn"
+                  disabled={true}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="-loading"
+          >
+            <div
+              className="-loading-inner"
+            >
+              Loading...
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mar-top-20 mar-bottom-20 row"
+      >
+        <div
+          className="col"
+        >
+          <button
+            aria-label={null}
+            className="mar-top-30 btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete Booking
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

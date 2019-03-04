@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Booking Container Component should render correctly in  mode 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-md navbar-light bg-light"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      Go Fly
+    </a>
+    <ul
+      className="mar-auto navbar-nav"
+    >
+      <li
+        className="nav-item"
+      >
+        <h3>
+           Welcome to Go Fly 
+        </h3>
+      </li>
+    </ul>
+    <button
+      aria-label={null}
+      className="btn btn-light"
+      onClick={[Function]}
+    >
+      Log Out
+    </button>
+  </nav>
+  <div
+    className="container"
+  >
+    <div
+      className="jumbotron jumbotron-fluid"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="lead row"
+        >
+          <div
+            className="col"
+          >
+            <label
+              className=""
+            >
+              Flight Details 
+            </label>
+          </div>
+          <div
+            className="col"
+          >
+            <label
+              className=""
+            >
+              Departure Details
+            </label>
+          </div>
+          <div
+            className="col"
+          >
+            <label
+              className=""
+            >
+              Arrival Details
+            </label>
+          </div>
+          <div
+            className="col"
+          >
+            <label
+              className=""
+            >
+              Duration
+            </label>
+          </div>
+          <div
+            className="col"
+          >
+            <label
+              className=""
+            >
+              Price
+            </label>
+          </div>
+        </div>
+        <div
+          className="small lead row"
+        >
+          <div
+            className="col"
+          >
+            <div>
+              Go Air
+            </div>
+            <div>
+              G8-428
+            </div>
+          </div>
+          <div
+            className="col"
+          >
+            <div>
+              05:35
+            </div>
+            <div>
+              DEL
+            </div>
+            <div>
+              New Delhi
+            </div>
+          </div>
+          <div
+            className="col"
+          >
+            <div>
+              08:35
+            </div>
+            <div>
+              BLR
+            </div>
+            <div>
+              Bangalore
+            </div>
+          </div>
+          <div
+            className="col"
+          >
+            <div>
+              2:30
+               Hrs
+            </div>
+          </div>
+          <div
+            className="col"
+          >
+            <div>
+              $ 
+              10,320
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-row"
+    >
+      <div
+        className="col-md-4"
+      />
+      <div
+        className="col-md-4"
+      />
+      <div
+        className="col-md-4"
+      />
+    </div>
+    <div
+      className="form-row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <button
+          aria-label={null}
+          className="btn btn-secondary"
+          onClick={[Function]}
+          type="button"
+        >
+          Book
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
