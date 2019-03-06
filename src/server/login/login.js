@@ -9,7 +9,7 @@ router.post('/', (req, res) => {
         response.message = 'Login Successful';
     } else {
         response.auth = false;
-        response.message = 'Wrong UserName Password';
+        response.message = 'Incorrect UserName and  Password';
     }
     res.send({ data: response });
 });

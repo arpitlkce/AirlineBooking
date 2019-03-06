@@ -15,7 +15,7 @@ export const isAuthSuccess = (value) => {
     };
 };
 
-export const itemFetchSucceeded = (item) => {
+export const itemFetchSucceeded = item => {
     return {
         type: ITEM_FETCH_SUCCESS,
         item
